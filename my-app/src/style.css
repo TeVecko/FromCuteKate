@@ -28,30 +28,28 @@ header {
   border-radius: 50%;
 }
 
+.introductorySeparator {
+  width: 14rem;
+}
+
+.introductory p {
+  display: flex;
+  margin: 1rem auto;
+}
+
 .arrowIntroductory {
   width: 2rem;
   height: 2rem;
-  margin: 0 auto 1rem;
+  margin: 1rem auto;
 }
 
-.bounceRight {
+.bounceDown {
   animation: bounce 3s infinite;
 }
 
 @keyframes bounce {
   60% {
-    transform: translateX(-15px);
-  }
-}
-
-.bounceLeft {
-  animation: bounceLeft 3s infinite;
-  animation-direction: reverse;
-}
-
-@keyframes bounceLeft {
-  70% {
-    transform: translateX(-15px);
+    transform: translateY(-15px);
   }
 }
 

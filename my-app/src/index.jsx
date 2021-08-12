@@ -8,20 +8,18 @@ const App = () => (
       <header>
         <img className="introductoryImg" src="./img/vetvicka.jpg"></img>
         <h1>FromCuteKate</h1>
+        <img className="introductorySeparator" src="./img/separator1.png"></img>
       </header>
       <main>
         <div className="introductory">
+          <p>Vyrobeno s láskou, inspirováno přírodou.</p>
+        </div>
+        <div className="introductory">
           <img
-            className="arrowIntroductory bounceRight"
-            src="./img/right-arrow.png"
-          ></img>
-          <a>Vstoupit</a>
-          <img
-            className="arrowIntroductory bounceLeft"
-            src="./img/left-arrow.png"
+            className="arrowIntroductory bounceDown"
+            src="./img/down-sketched-arrow.png"
           ></img>
         </div>
-        <p>Vyrobeno s láskou, inspirováno přírodou.</p>
       </main>
     </div>
   </>
