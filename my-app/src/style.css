@@ -9,7 +9,8 @@ html {
   background-color: #faf0e6;
 }
 
-.container {
+.sectionIntroduction {
+  height: 100vh;
   max-width: 26rem;
   margin-right: auto;
   margin-left: auto;
@@ -37,6 +38,11 @@ header {
   margin: 1rem auto;
 }
 
+.introductory a {
+  display: flex;
+  margin: 1rem auto;
+}
+
 .arrowIntroductory {
   width: 2rem;
   height: 2rem;
@@ -55,4 +61,31 @@ header {
 
 .introductory {
   display: flex;
+}
+
+/* sekce O mně */
+
+.sectionKata {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -1rem;
+  background-color: #e2beb5;
+}
+
+.profil {
+  width: 10rem;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+.aboutMe {
+  margin-bottom: 0;
+}
+
+.textAboutMe {
+  display: flex;
+  padding: 1rem 2.5rem;
+  margin: 0;
 }
